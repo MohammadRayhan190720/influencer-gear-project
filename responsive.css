@@ -1,0 +1,124 @@
+@media screen and (max-width: 576px) {
+  /* nav section */
+   #nav-container{
+    margin-left: 16px; 
+    margin-right: 16px;
+   }
+  .nav-menu-items{
+    display: none;
+  }
+  .nav-menu-icon, .nav-menu-cart{
+   display: block;
+  }
+  /* .banner */
+  #banner-container{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .banner-content{
+    text-align: center;
+  }
+  .banner-image-background{
+    background-image: none;
+  }
+ .prebook-btn{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+/* sponsore section */
+#sponsors-section{
+  grid-template-columns: repeat(4,1fr);
+margin-top: 100px;
+gap: 30px;
+}
+#sponsors-section img{
+  width: 100%;
+}
+/* collection items */
+#popular-collection{
+  height: auto;
+}
+.collection-items{
+  grid-template-columns: repeat(1,1fr);
+margin-left: 20px;}
+/* features */
+#features-section{
+  flex-direction: column-reverse;
+  gap: 20px;
+  margin-top: 20px;
+  height: auto;
+}
+.join-btn{
+display: flex;
+justify-content: center;
+align-items: center;}
+
+}
+
+
+
+
+     /* tablet or medium divices */
+@media screen and (min-width:577px) and (max-width:992px) {
+  /* navbar */
+  #nav-container{
+   flex-direction: column; 
+   gap: 50px;
+   margin-top: 30px;
+   height: auto;   
+  }
+  .nav-menu-items{
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* banner */
+  #banner-container{
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .banner-content{
+    text-align: center;
+  }
+  .banner-image-background{
+    background-image: none;
+  }
+ .prebook-btn{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+/* sponsore section */
+#sponsors-section{
+  grid-template-columns: repeat(4,1fr);
+margin-top: 100px;
+gap: 30px;
+}
+#sponsors-section img{
+  width: 90%;
+}
+/* collection items */
+#popular-collection{
+  height: auto;
+}
+
+.collection-items{
+  grid-template-columns: repeat(2,1fr);
+
+}
+.see-more{
+  text-align: center;
+}
+/* features */
+#features-section{
+  height: auto;
+}
+
+
+
+ 
+  
+}
